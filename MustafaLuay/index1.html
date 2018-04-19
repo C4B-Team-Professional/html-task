@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Html Task</title>
+        <meta charset="utf-8" />
+        <link rel="icon" href="img/44.png">
+        <meta name="description" content="welcome to My First Task in HTML :)">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            header{
+                height: 300px;
+                position: relative;
+            }
+            .team{
+                width: 50%;
+                position: absolute;
+                height: 30%;
+                left: 25%;
+                top: 65%
+            }
+            header img{
+                width: 100%;
+                height: 100%;
+               
+            }
+            nav{
+                background:black;
+                 
+                padding: 10px;  
+            }
+            nav ul {
+                list-style: none;
+                margin: 0;
+                text-align: center;
+            }
+            nav ul li {
+                display:inline;
+                padding: 10px;
+            }
+
+            nav ul li a{
+                color:#CCC;
+                text-decoration: none;
+            }
+            nav ul li a:hover{
+                color:#FFF;
+            }
+            .bb{
+                padding-bottom: 10px;
+                padding-top: 10px;
+                height: 550px;
+                background: #BBB;
+            }
+            .bb .rigth, .bb .left{
+                width: 48%;
+                float: left;
+                background: #fff;
+                margin: 1% 0.5% 1% 1%;
+                padding: 10px;
+                height: 500px;
+                border: 3px solid black;
+                box-sizing: border-box;
+                word-wrap:break-word;
+                overflow: hidden;
+                
+                
+            }
+            .bb .rigth img{
+                float: right;
+                padding: 10px;
+                width: 40%;
+                height: 250px;
+            }
+        
+            .bb .left img{
+                float: right;
+                width: 40%;
+                padding: 10px;
+                height: 250px;
+                /* position: relative; */
+            }
+
+            .about{
+                background: #ddd;
+                padding: 40px 10px 40px 10px;            
+            }
+            .about .sec{
+                border:1px solid black;
+                padding: 10px;
+                margin-bottom: 1%;
+            }
+            .about .sec img{
+                height: 100px;
+                width: 100px;
+            }
+            .about .sec a{
+                color: crimson;
+                text-decoration: none;
+                font-weight: bold;
+            }
+           
+
+            .tab{
+                padding: 10px;
+                height: 300px;
+            }
+            .tab table{
+                width: 100%;
+            }
+            th,td{
+                border-bottom:1px solid black;
+            }
+            th{
+                text-align: left;
+            }
+            th,td{
+                padding: 10px;
+            }
+            .tab a{
+                 color: crimson;
+                text-decoration: none;
+                font-weight: bold;  
+            }
+
+            footer{
+                background: #191e22;
+                color: white;
+                padding: 10px;
+                text-align: center
+            }
+            footer p{
+                font-size: 20px;
+            }
+
+        
+        </style>
+    
+    </head>
+
+    <body>
+
+        <header>
+                <img src="img/TP.png" alt="" class="team">
+             <img src="img/C4I.png" alt=""> 
+             
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="http://codeforiraq.herokuapp.com/">Code FOr IRAQ</a></li>
+                <li><a href="https://github.com/C4B-Team-Professional">Project In Github</a></li>
+                <li><a href="https://www.w3schools.com/">W3shool</a></li>
+            </ul>
+        </nav>
+
+        <section class="bb">
+            <div class="left">
+                <h2>About</h2>
+                <img src="img/44.png" alt=""> 
+                <p>jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+
+                </p>
+                 
+                
+                 
+                
+               
+
+            </div>
+            <div class="rigth">
+                    <h2>About</h2>
+                    <img src="img/5.jpg" alt="">
+                    <p>jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+
+                    </p>
+                         
+            </div>
+        </section>
+
+        <div class="about">
+            <div class="sec">
+                    <img src="img/1.png" alt="">
+                    <p>You Can Learn Html ,Css ,Javascript and more in this site <a href="https://www.w3schools.com/"> Click Here To Go</a></p>
+            </div>
+            <div class="sec">
+                    <img src="img/2.png" alt="">
+                    <p>Do You Wouid go To Google <a href="https://github.com/"> Click Here To Go</a></p>
+            </div>
+            <div class="sec">
+                    <img src="img/3.png" alt="">
+                    <p>Do You Wouid go To Google <a href="http://www.google.com"> Click Here To Go</a></p>
+            </div>
+        </div>
+
+        <div class="tab">
+            <table>
+                <tr>
+                    <th>Member</th>
+                    <th>Level</th>
+                    <th>CV</th>
+                </tr>
+                <tr>
+                    <td>Mustafa Luay</td>
+                    <td>Very Good</td>
+                    <td><a href="mypage.html" target="_blank">Click Here</a></td>
+                </tr>
+            </table>
+        </div>
+
+        <footer>
+            <P>&copy; Code FOR IRAQ</P>
+        </footer>
+        
+    </body>
+
+</html>
